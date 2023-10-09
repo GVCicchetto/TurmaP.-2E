@@ -14,7 +14,6 @@ form.addEventListener("submit", (e) => {
     } else {
         peso = 21 * Math.pow(altura, 2)
     }
-
     resp.innerText = `${nome} seu peso ideal é: ${peso.toFixed(3)}kg`
 })
 
